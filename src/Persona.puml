@@ -24,6 +24,11 @@ class EstuVirtual{
 +plataforma: String
 +tutor_virtual: String
 }
+class DocenteLinea{
++tipo_contrato: String
++mostrarInfo(): void
+}
+Docente<--- DocenteLinea
 Estudiante<---EstuPresencial
 Estudiante<---EstuVirtual
 Persona <----Estudiante

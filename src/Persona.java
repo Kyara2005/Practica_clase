@@ -5,14 +5,16 @@ public class Persona {
     public String direccion;
     public String correo;
     public String telefono;
+    public String año;
 
     //Constructor
-    public Persona(String cedula, String nombre,String direccion, String correo, String telefono) {
+    public Persona(String cedula, String nombre,String direccion, String correo, String telefono, String año) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.direccion = direccion;
         this.correo = correo;
         this.telefono = telefono;
+        this.año=año;
     }
 
     //Metodo
